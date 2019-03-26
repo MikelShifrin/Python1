@@ -1,3 +1,5 @@
+![GitHub top language](https://img.shields.io/github/languages/top/MikelShifrin/Python1.svg?style=popout)
+![GitHub](https://img.shields.io/github/license/MikelShifrin/Python1.svg?style=popout)
 # Beginner Python 
 This is a simple repository where I'll be posting lectures and solutions to my homework.
 
