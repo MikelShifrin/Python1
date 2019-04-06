@@ -28,7 +28,7 @@ for age in [1, 2, 20, 'stuff']:
 for count in range(10):
     print(count)
 '''
-#The for loop using range(one, two)
+#The for loop using range(start, end)
 '''
 for count in range(1, 10):
     print(count)
@@ -45,14 +45,17 @@ for number in range(count):
     print(number)
 '''
 #Input validation loops
-'''
+
 number = int(input('Please enter a number between 1-7:\n'))
 while number < 1 or number > 7:
     number = int(input('Please enter a number between 1-7:\n'))
-'''
+
 #Assignment 5
 #Ask user to input a positive integer
 #calculate and print the running total
 #ex: input = 5
 #total = 1+2+3+4+5
 #output = total
+total = 0
+total = total + 2
+print(total)
