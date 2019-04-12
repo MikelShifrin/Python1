@@ -1,9 +1,9 @@
 #Repetition Loops
 
 #The while loop
-'''
-number = 0
 
+number = 0
+'''
 while number < 10:
     print(number)
     number = number + 1
@@ -45,10 +45,11 @@ for number in range(count):
     print(number)
 '''
 #Input validation loops
-
+'''
 number = int(input('Please enter a number between 1-7:\n'))
 while number < 1 or number > 7:
     number = int(input('Please enter a number between 1-7:\n'))
+'''
 
 #Assignment 5
 #Ask user to input a positive integer
@@ -56,6 +57,3 @@ while number < 1 or number > 7:
 #ex: input = 5
 #total = 1+2+3+4+5
 #output = total
-total = 0
-total = total + 2
-print(total)
