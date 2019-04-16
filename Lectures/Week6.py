@@ -26,26 +26,13 @@ for hours in range(24):
 #Sum of numbers
 #Ask user to enter positive integers and print out the sum
 #To stop counting ask user to input -1
-'''
-number = 0
-total = 0
-while number != -1:
-    total += number
-    number = int(input("Please enter a positive number (-1 to stop):"))
-print(total)
-'''
+
 #Assignment 7
 #Calculating the factorial of a number
 #Ask user to input a positive integer
 #calculate and print out the factorial of that number
 #Reminder: 7! = 7x6x5x4x3x2x1
-'''
-number = int(input('Please enter a positive integer:'))
-total = 1
-for value in range(1, number+1):
-    total = total * value
-print(total)
-'''
+
 #Assignment 8
 #Using nested loops recreate the following pattern
 #*******   (7)
@@ -56,6 +43,26 @@ print(total)
 #**        (2)
 #*         (1)
 #Hint: for i in range(10,0,-1)
+
+
+
+'''
+number = 0
+total = 0
+while number != -1:
+    total += number
+    number = int(input("Please enter a positive number (-1 to stop):"))
+print(total)
+'''
+
+'''
+number = int(input('Please enter a positive integer:'))
+total = 1
+for value in range(1, number+1):
+    total = total * value
+print(total)
+'''
+
 
 for triangles in range(7+1):
     print('*',end='')
