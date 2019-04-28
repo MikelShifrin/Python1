@@ -1,3 +1,4 @@
+#github.com/MikelShifrin/Python1
 #Introduction to Functions
 
 #Rules for naming functions:
@@ -7,7 +8,7 @@
 #4. the rest can be _ or English alphabet or any arabic number
 
 #Void Functions
-'''   
+'''
 def message():
     print('hello')
     print('my friend')
@@ -26,7 +27,7 @@ def main():
 def names():
     full_name = input("Please enter your full name:\n")
     print("Welcome to my program", full_name)
-    
+
 main()
 '''
 #Local variables
@@ -95,6 +96,7 @@ main()
 PERSON = 'Mikel'
 
 def main():
+    print(PERSON)
     name()
     print(PERSON)
     
