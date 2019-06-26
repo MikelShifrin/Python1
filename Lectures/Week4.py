@@ -5,7 +5,6 @@
 # <
 # >=
 # <=
-# ==
 # !=
 #AND
 '''
@@ -26,6 +25,7 @@ False or False = False
 not True = False
 not False = True
 '''
+
 #if statement
 '''
 number = 10
@@ -44,7 +44,7 @@ else:
 print('outside if and else')
 '''
 #if elif else statements
-
+'''
 grade = 60
 if grade > 90 and grade <= 100:
     print("A")
@@ -55,17 +55,18 @@ elif grade > 70 and grade <= 80:
 else:
     print("you fail")
 print("outside of if or else")
-
+'''
 #Nested if statements
+'''
 number = 8
 if number >= 8:
     if number > 10:
         print('number is bigger than 10')
     else:
-        print('number is smaller than 10 but bigger or equal to 8)
+        print('number is smaller than 10 but bigger or equal to 8')
 else:
     print('outside of if')
-
+'''
 
 #assignment 3
 #ask user to enter a number between 1-7
@@ -89,8 +90,3 @@ else:
 # 8. VIII
 # 9. IX
 #10. X
-
-
-
-
-
