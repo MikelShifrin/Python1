@@ -12,16 +12,10 @@
 #can use both single ' and double " quotes
 #print("""he said: "Mikel's pet".""")
 
-
-
-
-
 #String variables and literals
 #name = 'Mikel'
 #print(name)
 #print('Mikel')
-
-
 
 #variables
 #variable naming rules:
@@ -31,23 +25,23 @@
 #print(age)
 #age = 'hello'
 #print(age)
+'''
+variable naming conventions
 
+1. Camel Case
+helloMyNameIsMikel
 
+2. Pascal Case
+HelloMyNameIsMikel
 
-
-
-
-
-
-
-
-
-
+3. Underscore Case (used in Python)
+hello_my_name_is_mikel
+'''
 
 #The print function
 #name = 'Mikel'
 #age = 9
-#print("My name is:", name, "and I am", age, "years old.")
+#print("My name is:" , name , "and I am" , age , "years old.")
 #escape characters
 # \\     prints \
 # \t     tab space
@@ -60,23 +54,9 @@
 #print("I like", "Python", sep="+", end="&&&&")
 #print("today")
 
-
-
-
-
-
-
-
-
-
-
-
 #keyboard input
-#name = input("Please enter your name:\n")
-#age = int(input("Please enter your age:\n")))
-
-
-
+name = input("Please enter your name:\n")
+age = int(input("Please enter your age:\n")))
 
 #performing calculations
 # +    addition
@@ -88,13 +68,13 @@
 # **   Exponent
 
 #Average grade program
-grade1 = float(input("enter grade 1:"))
-grade2 = float(input("enter grade 2:"))
-grade3 = float(input("enter grade 3:"))
+#grade1 = float(input("enter grade 1:"))
+#grade2 = float(input("enter grade 2:"))
+#grade3 = float(input("enter grade 3:"))
 
-average = ( grade1 + grade2 + grade3 ) / 3
+#average = ( grade1 + grade2 + grade3 ) / 3
 
-print("Your average is", average)
+#print("Your average is", average)
 
 #assignment 1
 #write a program that asks and shows
@@ -115,28 +95,6 @@ print("Your average is", average)
 #calculate the subtotal
 #add 15% tax
 #calculate total
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
