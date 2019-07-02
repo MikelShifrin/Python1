@@ -21,10 +21,10 @@
 #variable naming rules:
 #1. needs to start with a uppercase letter, lowercase letter or underscore
 #2. everything after can be a number, letter or underscore
-#age = 9
-#print(age)
-#age = 'hello'
-#print(age)
+age = 9
+print(age)
+age = 'hello'
+print(age)
 '''
 variable naming conventions
 
@@ -56,7 +56,7 @@ hello_my_name_is_mikel
 
 #keyboard input
 name = input("Please enter your name:\n")
-age = int(input("Please enter your age:\n")))
+age = int(input("Please enter your age:\n"))
 
 #performing calculations
 # +    addition
