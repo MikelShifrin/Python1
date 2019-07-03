@@ -1,0 +1,8 @@
+name=input("What's your name? ")
+age=input("How old are you? ")
+favorite_color=input("What is your favorite color? ")
+favorite_animal=input("What is your favorite animal? ")
+print("My name is",name,sep=' ',end='.\n')
+print("I am",age,"years old",sep=' ',end='.\n')
+print("My favorite color is",favorite_color,sep=' ',end='.\n')
+print("My favorite animal is",favorite_animal,sep=' ',end='.')
