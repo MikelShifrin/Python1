@@ -4,7 +4,7 @@
 '''
 number = 0
 
-while number < 0:
+while number < 10:
     print(number)
     number = number + 1
 print('outside of while loop')
