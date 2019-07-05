@@ -80,10 +80,3 @@ def max(num1, num2):
         print("the numbers are equal")
 
 main()
-
-
-
-
-
-
-
