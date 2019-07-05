@@ -1,11 +1,11 @@
 #Calculating a running total
-
+'''
 number = int(input('Please enter a positive integer:'))
 total = 0
 for value in range(number+1):
     total = total + value
 print(total)
-
+'''
 #Sentinel Loop
 '''
 number = 0

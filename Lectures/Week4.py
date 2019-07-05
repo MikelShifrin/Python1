@@ -58,7 +58,7 @@ else:
 print("outside of if or else")
 '''
 #Nested if statements
-
+'''
 number = 8
 if number >= 8:
     if number > 10:
@@ -67,7 +67,7 @@ if number >= 8:
         print('number is smaller than 10 but bigger or equal to 8')
 else:
     print('outside of if')
-
+'''
 
 #assignment 3
 #ask user to enter a number between 1-7
