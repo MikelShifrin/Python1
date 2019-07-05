@@ -15,7 +15,7 @@
 #you will ask the user to enter fat, carbs and protein in main
 #and calculate the total calories and print the answer 
 #in calories function.
-'''
+
 def main():
     fat = int(input("Please enter a number of grams of fat:\n"))
     carbs = int(input("Please enter a number of grams of carbs:\n"))
@@ -29,7 +29,7 @@ def calories(fat, carbs, protein):
 main()
 
 
-'''
+
 #exercice 2
 
 #feet to inches
@@ -41,7 +41,7 @@ main()
 #HINT: 
 #main()
 #feet_to_inches(feet)
-'''
+
 def main():
     feet = int(input("Please enter a number of feet:\n"))
     feet_to_inches(feet)
@@ -52,7 +52,7 @@ def feet_to_inches(feet):
 
 main()
 
-'''
+
 #exercice 3
 
 #maximum of 2 numbers
@@ -66,10 +66,20 @@ main()
 #Example: if both numbers are 1 and 2
 #then answer is 2 is bigger than 1 
 
+def main():
+    num1 = int(input("Please enter a number:\n"))
+    num2 = int(input("Please enter another number:\n"))
+    max(num1, num2)
 
+def max(num1, num2):
+    if num1 > num2:
+        print(num1,"is bigger than",num2)
+    elif num2 > num1:
+        print(num2,"is bigger than",num1)
+    elif num1 == num2:
+        print("the numbers are equal")
 
-
-
+main()
 
 
 
