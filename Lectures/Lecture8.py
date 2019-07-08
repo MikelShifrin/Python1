@@ -1,8 +1,8 @@
 #Functions writing your own modules
 '''
-import Week9Module
+import Lecture8Module
 
-car = Week9Module
+car = Lecture89Module
 
 print(car.interior_color())
 '''
