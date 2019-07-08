@@ -1,0 +1,5 @@
+#compiled modules
+**/__pycache__/**
+
+#virtual environment for python3
+**/venv/**
