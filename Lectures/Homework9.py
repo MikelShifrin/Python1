@@ -14,7 +14,7 @@ def main ():
                       
 def km_to_miles(km):
     miles = km*0.6214
-    print("The kilometers are now converted to " , miles )
+    print("The kilometers are now converted to the number of miles " , miles )
 
 main()
 

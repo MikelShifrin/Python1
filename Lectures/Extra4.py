@@ -8,12 +8,12 @@
 #rectangle_area(length, width)
 
 def main ():
-    l = float(input("Please enter a value for the length\n"))
-    w = float(input("Please enter a value for the width\n"))
+    l = float(input("Please enter a value in meters for the length\n"))
+    w = float(input("Please enter a value in meters for the width\n"))
     rectangle_area(l, w)
 
 def rectangle_area(length, width):
     area = length*width
-    print("The total area has now been calculated" , area)
+    print("The total area has now been calculated in sqr.mtrs" , area)
 
 main()
