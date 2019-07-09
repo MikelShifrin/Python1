@@ -11,9 +11,9 @@ def seat_material():
     return material
 
 def brand():
-    brand = "Audi"
+    brand = "BMW"
     return brand
 
 def model():
-    model = "R8"
+    model = "X5"
     return model
