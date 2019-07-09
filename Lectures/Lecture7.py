@@ -1,7 +1,7 @@
 #Functions Continuation
 
 #Return Functions
-'''
+
 def main():
     a = sum(20, 20)
     print(a)
@@ -12,7 +12,7 @@ def sum(num1, num2):
     return result
 
 main()
-'''
+
 
 #Assignment 10
 #Calorie calculator
@@ -20,6 +20,12 @@ main()
 #calories from fat = fat grams x 9
 #calories from protein = protein x 4
 #total calories
+#HINT:
+#main():
+#fat(grams):
+#carbs(grams):
+#protein(grams):
+#total(fat, carbs, protein):
 
 #Assignment 11
 #Test Average and Letter Grade

@@ -102,6 +102,7 @@ else:
 #reverse()            - reverses list 
 
 names = ['Eric','Mikel','Patrick', 'Fenghua', 'Haochen']
+'''
 names.append('Edward')
 print(names)
 
@@ -112,17 +113,61 @@ print(names)
 
 names.sort()
 print(names)
+'''
+'''
+print(names)
+names.remove('Mikel')
+print(names)
+'''
+'''
+print(names)
+names.reverse()
+print(names)
+'''
+'''
+print(names)
+del names[0]
+print(names)
+'''
+'''
+numbers = [5, 4, 20, 2, 30]
+print(numbers)
+print(max(numbers))
+print(min(numbers))
+'''
+'''
+list1 = [1, 2, 3, 4, 5]
+list2 = list1
+del list1[0]
+print(list2)
+'''
+#Using a list as a parameter in a function
+'''
+list1 = [1, 2, 3, 4, 5]
+list2 = []
+for item in list1:
+    list2.append(item)
 
 
 
+def average(numbers):
+    total = 0
+    for i in numbers:
+        total += i
+    size = len(numbers)
+    average = total / size
+    print(average)
+'''
+#2 dimentional list
+'''
+list1 = [[1,10], [20,2], ['hello', 1]]
+list1[0][0]
 
-
-
-
-
-
-
-
+average(list1)
+'''    
+#Tuples
+tuple1 = (1, 2, 3, 4, 5)
+# built-in functions: len, min, max
 
 
 
