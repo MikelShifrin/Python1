@@ -16,23 +16,24 @@ def main():
     grade4 = float(input("Please enter your score for grade 4:\n"))
     grade5 = float(input("Please enter your score for grade 5:\n"))
 
-    average(grade)
-    letter_grade(grade)
+    average1 = average(grade1, grade2, grade3, grade4, grade5)
+    letter = letter_grade(average1)
+    print(letter)
     
-def average(grade):
-    average = grade1 + grade2 + grade3 + grade4 + grade5
+def average(grade1, grade2, grade3, grade4, grade5):
+    average = ( grade1 + grade2 + grade3 + grade4 + grade5 ) / 5
     return average
 
-def letter_grade(grade):
-    if average < 100 and averege > 90:
-        print("A")
-    elif average < 89 and average > 80:
-        print("B")
-    elif average < 79 and average > 70:
-        print("C")
-    elif average < 69 and average > 60:
-        print("D")
+def letter_grade(average):
+    if average <= 100 and average >= 90:
+        return "A"
+    elif average <= 89 and average >= 80:
+        return "B"
+    elif average <= 79 and average >= 70:
+        return "C"
+    elif average <= 69 and average >= 60:
+        return "D"
     else:
-        print("F")
+        return "F"
 
 main()
