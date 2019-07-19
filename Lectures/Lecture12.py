@@ -1,39 +1,59 @@
-#Dictionaries and Sets
+#Basic String Operations
 
-#Dictionaries
-#Creating a Dictionary
+#Iterating over a String with the for loop
 '''
-age = {'Chase':11, 'Mikel':23, 'Daniel':10, 'Aheesh':12}
-print(age['Mikel'])
+name = "Mikel"
+for i in name:
+    print(i)
 '''
-#Using the in and not in Operators to Test for a in a Dictionary
+#Indexing
 '''
-age = {'Chase':11, 'Mikel':23, 'Daniel':10, 'Aheesh':12}
-if 'Daniel' in age:
-    print(age['Daniel'])
+name = 'Chase Zhang'
+print(name[0])
+'''
+#IndexError Exceptions
+'''
+name = 'Chase Zhang'
+print(name[11])
+'''
+#The len Function
+'''
+name = 'Mikel'
+print(len(name))
+'''
+#String Concatenation
+'''
+fname = 'Mikel'
+lname = 'Shifrin'
+age = 23
+name = fname + ' ' + lname + str(age)
+print(name)
+'''
+#Strings are immutable
 
-else:
-    print('not in dictionary')
-'''
-#Adding Elements to an Existing Dictioary
-'''
-age = {'Chase':11, 'Mikel':23, 'Daniel':10, 'Aheesh':12}
-age['Chase'] = 12
-age['Peter'] = 14
-print(age)
-'''
-#Deleting Elements
-'''
-age = {'Chase':11, 'Mikel':23, 'Daniel':10, 'Aheesh':12}
-del age['Mikel']
-print(age)
-'''
-#Size of Dictionary
+#String Slicing
+#Just like lists
 
-age = {'Chase':11, 'Mikel':23, 'Daniel':10, 'Aheesh':12}
-print(len(age))
+#Testing Strings with in and not in
+fname = 'Chase'
+name = 'Chase Zhang'
+if fname in name:
+    print('True')
 
-#Mixing Data Types in a Dictionary
-'''
-age = {'Chase':11, 'Mikel':'person', 'Daniel':10.5, 'Aheesh':True}
-'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,7 +19,8 @@ print(total)
 '''
 for hours in range(24):
     for minutes in range(60):
-    for seconds in range(60):
+        #print(hours, ":", minutes)
+        for seconds in range(60):
             print(hours, ":", minutes, ":", seconds)
 '''
 #Assignment 6
@@ -39,7 +40,8 @@ for hours in range(24):
 #******    (6)
 #*****     (5)
 #****      (4)
-#***       (32)
+#***       (3)
+#**        (2)
 #*         (1)
 #Hint: for i in range(10,0,-1)
 
