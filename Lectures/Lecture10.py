@@ -15,7 +15,7 @@ numbers = [100, 63, 96, 43]
 
 #List of mixed data types
 '''
-info = ['hello', 1, 4.9]
+info = ['hello', 1, 4.9, True]
 '''
 
 #Other ways of creating lists
@@ -28,20 +28,24 @@ b = list(range(1, 10, 2))
 print(b)
 # [1, 3, 5, 7, 9]
 
-c = [1] * 5
+c = [1, 2] * 5
 print(c)
-# [1, 1, 1, 1, 1] 
+# [1, 2, 1, 2, 1, 2, 1, 2, 1, 2] 
 '''
 
 #Iterating over a List with for Loop
 '''
 names = ['Eric','Mikel','Patrick', 'Fenghua', 'Haochen']
 for i in names:
-    print(i)
+    print(i, end = ' ')
+
+for i in range(len(names)):
+    print(names[i])
 '''
 
 #Indexing
 '''
+names = ['Eric','Mikel','Patrick', 'Fenghua', 'Haochen']
 i = 0
 while i < len(names):
     print(names[i])
@@ -58,9 +62,10 @@ print(names[5])
 #List mutability
 '''
 names = ['Eric','Mikel','Patrick', 'Fenghua', 'Haochen']
+print(names)
 names[0] = 'Bob'
+print(names)
 '''
-
 #List Concatenating
 '''
 list1 = [1, 2, 3]
@@ -105,12 +110,15 @@ names = ['Eric','Mikel','Patrick', 'Fenghua', 'Haochen']
 '''
 names.append('Edward')
 print(names)
-
+'''
+'''
 print(names.index('Fenghua'))
-
+'''
+'''
 names.insert(1 ,'Bob')
 print(names)
-
+'''
+'''
 names.sort()
 print(names)
 '''
@@ -127,7 +135,7 @@ print(names)
 '''
 print(names)
 del names[0]
-print(names)
+print(names[0])
 '''
 '''
 numbers = [5, 4, 20, 2, 30]
@@ -135,12 +143,20 @@ print(numbers)
 print(max(numbers))
 print(min(numbers))
 '''
+#Shallow copying vs. deep copying of lists
 '''
 list1 = [1, 2, 3, 4, 5]
 list2 = list1
 del list1[0]
 print(list2)
 '''
+'''
+list1 = [1, 2, 3, 4, 5]
+list2 = []
+for i in list1:
+    list2.append(i)
+'''
+
 #Using a list as a parameter in a function
 '''
 list1 = [1, 2, 3, 4, 5]
@@ -157,16 +173,21 @@ def average(numbers):
     size = len(numbers)
     average = total / size
     print(average)
+    
+average(list1)
 '''
 #2 dimentional list
 '''
 list1 = [[1,10], [20,2], ['hello', 1]]
 list1[0][0]
+'''
 
-average(list1)
-'''    
+   
 #Tuples
+'''
 tuple1 = (1, 2, 3, 4, 5)
+print(tuple1[0])
+'''
 # built-in functions: len, min, max
 
 

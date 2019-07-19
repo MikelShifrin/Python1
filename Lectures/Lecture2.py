@@ -2,7 +2,7 @@
 
 #Way 1
 #cannot use single quotes '
-#print('he said: "Life is honey."') 
+#print('he said: "Life is honey."')
 
 #Way 2
 #cannot use double quotes "
@@ -13,18 +13,22 @@
 #print("""he said: "Mikel's pet".""")
 
 #String variables and literals
-#name = 'Mikel'
-#print(name)
-#print('Mikel')
+'''
+name = 'Mikel'
+print(name)
+print('Mikel')
+'''
 
 #variables
 #variable naming rules:
 #1. needs to start with a uppercase letter, lowercase letter or underscore
 #2. everything after can be a number, letter or underscore
+'''
 age = 9
 print(age)
 age = 'hello'
 print(age)
+'''
 '''
 variable naming conventions
 
@@ -55,8 +59,10 @@ hello_my_name_is_mikel
 #print("today")
 
 #keyboard input
+'''
 name = input("Please enter your name:\n")
 age = int(input("Please enter your age:\n"))
+'''
 
 #performing calculations
 # +    addition
@@ -83,7 +89,10 @@ age = int(input("Please enter your age:\n"))
 #   2. your age
 #   3. your favorite color
 #   4. your favorite animal
-#
+
+
+
+
 #Hello my name is Mikel.
 #I am 22 years old.
 #My favorite color is black.

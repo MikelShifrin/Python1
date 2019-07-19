@@ -1,8 +1,6 @@
 #Functions writing your own modules
 '''
-import Lecture8Module
-
-car = Lecture89Module
+import Lecture8Module as car
 
 print(car.interior_color())
 '''
@@ -13,12 +11,13 @@ print(car.interior_color())
 #write access with append 'a'
 
 #open(String filename, String access type)
+'''
 outputfile = open('C:/Users/mikis/Desktop/random1.txt', 'a')
 for i in range(10):
     outputfile.write("Hello my name is mikel\n")
 outputfile.close()
-
-
+'''
+'''
 inputfile = open('C:/Users/mikis/Desktop/random1.txt', 'r')
 #file_contents = inputfile.read()
 #print(file_contents)
@@ -30,7 +29,7 @@ while file_contents != '':
     file_contents = inputfile.readline()
 
 inputfile.close()
-
+'''
 
 #Assignment 12
 #create 2 files on Desktop:
