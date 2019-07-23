@@ -1,59 +1,37 @@
-#Basic String Operations
+from matplotlib import pyplot as plt
+#import matplotlib.pyplot as plt
 
-#Iterating over a String with the for loop
-'''
-name = "Mikel"
-for i in name:
-    print(i)
-'''
-#Indexing
-'''
-name = 'Chase Zhang'
-print(name[0])
-'''
-#IndexError Exceptions
-'''
-name = 'Chase Zhang'
-print(name[11])
-'''
-#The len Function
-'''
-name = 'Mikel'
-print(len(name))
-'''
-#String Concatenation
-'''
-fname = 'Mikel'
-lname = 'Shifrin'
-age = 23
-name = fname + ' ' + lname + str(age)
-print(name)
-'''
-#Strings are immutable
+#The 2 lines above do the exact same thing
 
-#String Slicing
-#Just like lists
+def main():
+    line_graph()
+    bar_chart()
+    pie_chart()
 
-#Testing Strings with in and not in
-fname = 'Chase'
-name = 'Chase Zhang'
-if fname in name:
-    print('True')
+#Line Graph
+def line_graph():
+    x = [0, 1, 2, 3, 4, 5]
+    y = [0, 1, 2, 3, 4, 5]
 
+    plt.plot(x, y, marker='o')
+    plt.title('Linear Graph')
+    plt.xlabel('x-axis')
+    plt.ylabel('y-axis')
+    plt.grid(True)
+    plt.show()
 
+#Bar Chart
+def bar_chart():
+    left_edge = [0, 5, 10, 15, 20]
+    height = [10, 20, 30, 40, 50]
+    bar_width = 5
+    plt.bar(left_edge, height, bar_width, color=('r', 'g', 'b', 'm', 'k'))
+    plt.show()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Pie Chart
+def pie_chart():
+    values = [10, 50, 40]
+    plt.pie(values)
+    plt.show()
+    
+main()
