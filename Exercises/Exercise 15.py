@@ -1,10 +1,9 @@
-#Assignment 15
+#Assignment 14
 #
-#Rainfall Statistics
+#Total Sales
 #
-#Design a program that lets the user enter the total rainfall for each
-#of the 12 months into a list. The program should calculate and display
-#the total rainfall for the year, the average monthly rainfall,
-#the months with the highest and lowest amounts.
-#In addittion display the each month's rainfall on a matplotlib
-#The rainfall on the y-axis & the month number on the x-axis
+#Design a program that asks the user to enter a store's sales for each
+#day of the week and display the result.
+
+
+

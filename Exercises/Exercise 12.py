@@ -1,13 +1,10 @@
-#Assignment 12
-#create 2 files on Desktop:
-#input.txt
-#output.txt
-#inside input.txt write the following lines:
-#apple
-#orange
-#banana
-#cucumber
-#Your program will add an s to each line
-#and write it to output.txt
-#Hint: name = 'hello\n'
-#      name.rstrip('\n')
+#Assignment 11
+#Test Average and Letter Grade
+#ask for 5 grades
+#calculate and display the average
+#display letter grade
+#90 -100  A
+#80 - 89  B
+#70 - 79  C
+#60 - 69  D
+#Below 60 F

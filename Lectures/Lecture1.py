@@ -1,4 +1,4 @@
-#import turtle
+import turtle
 
 turtle.setup(400, 400)      #size of graphics screen (width, height) in pxs
 turtle.showturtle()         #shows pointer
