@@ -10,9 +10,8 @@ def seat_material():
     material = "leather"
     return material
 
-def brand():
-    brand = "BMW"
-    return brand
+def brand(car_brand):
+    return car_brand
 
 def model():
     model = "X5"

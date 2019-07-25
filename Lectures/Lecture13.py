@@ -9,6 +9,8 @@ for i in name:
 #Indexing
 '''
 name = 'Chase Zhang'
+position = name[1]
+print(position)
 print(name[0])
 print(name[-1])
 '''
@@ -20,7 +22,8 @@ print(name[11])
 #The len Function
 '''
 name = 'Mikel'
-print(len(name))
+length = len(name)
+print(length)
 '''
 #String Concatenation
 '''
@@ -57,9 +60,13 @@ else:
 
 #Some String Testing Methods
 '''
+name = 'A$ABC123#'
+print(name.isupper())
+'''
+'''
 isalnum()
 isalpha()
-isadigit()
+isdigit()
 islower()
 isspace()
 isupper()
@@ -67,14 +74,19 @@ isupper()
 
 #Modification Methods
 '''
+name = 'Mikel SHIFRIN'
+a = name.strip('i')
+print(a)
+
+
 lower()
+upper()
 lstrip()
 lstrip(char)
 rstrip()
 rstrip(char)
 strip()
 strip(char)
-upper()
 '''
 
 #Searching and Replacing
@@ -85,7 +97,7 @@ replace(old, new)
 startswith(substring)
 '''
 
-#The Repetiotion Operator
+#The Repetition Operator
 '''
 name = 'Mikel'
 repeat = name * 5
@@ -94,8 +106,19 @@ print(repeat)
 '''
 
 #Splitting a String
+'''
 split()
 split(char)
+'''
+
+#Assignment 16
+#
+#Write a program that gets a string containing a person's
+#first, middle, and last names, and displays their first,
+#middle, and last initials
+#Ex: Mikel Dmitry Shifrin
+# M. D. S.
+
 
 
 

@@ -6,6 +6,8 @@
 #   3. your favorite color
 #   4. your favorite animal
 #
+#Example:
+#
 #Hello my name is Mikel.
 #I am 22 years old.
 #My favorite color is black.
