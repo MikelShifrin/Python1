@@ -9,4 +9,8 @@
 #
 #The 4 images can be found at the following links:
 '''
+https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%201.jpg
+https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%202.jpg
+https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%203.jpg
+https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%204.jpg
 '''
