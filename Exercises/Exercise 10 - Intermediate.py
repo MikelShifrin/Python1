@@ -1,8 +1,10 @@
-#Assignment 9
-#write a km to miles converter
-#Miles = KM x 0.6214
-#write it using void functions
-#HINT:
-#you will have 2 functions:
-#main():
-#km_to_miles(km):
+#Assignment 8
+#Using nested loops recreate the following pattern
+#*******   (7)
+#******    (6)
+#*****     (5)
+#****      (4)
+#***       (3)
+#**        (2)
+#*         (1)
+#Hint: for i in range(10,0,-1)

@@ -1,10 +1,6 @@
-#Assignment 8
-#Using nested loops recreate the following pattern
-#*******   (7)
-#******    (6)
-#*****     (5)
-#****      (4)
-#***       (3)
-#**        (2)
-#*         (1)
-#Hint: for i in range(10,0,-1)
+#Assignment 7
+#Calculating the factorial of a number
+#Ask user to input a positive integer
+#calculate and print out the factorial of that number
+#Reminder: 7! = 7x6x5x4x3x2x1
+
