@@ -1,7 +1,7 @@
 #Functions Continuation
 
 #Return Functions
-
+'''
 def main():
     a = sum(20, 20)
     print(a)
@@ -12,7 +12,7 @@ def sum(num1, num2):
     return result
 
 main()
-
+'''
 
 #Assignment 10
 #Calorie calculator
