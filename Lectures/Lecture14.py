@@ -1,4 +1,4 @@
-#Dictionaries and Sets
+#Dictionaries
 
 #Dictionaries
 #Creating a Dictionary
@@ -53,6 +53,13 @@ for key in age:
 '''
 #Some Dictionary Methods
 age = {'Chase':11, 'Mikel':'person', 'Daniel':10.5, 'Aheesh':True}
+#clear
+#get
+#items
+#keys
+#pop
+#popitem
+#values
 '''
 print(age)
 age.clear()
@@ -74,11 +81,11 @@ print(age.pop('Mikel'))
 print(age)
 '''
 '''
-popitem
+deletes randoms key, value pair 
+print(age.popitem())
+print(age)
 values
 '''
-
-
 
 
 

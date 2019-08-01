@@ -1,20 +1,30 @@
 #Files
+
 #read access              'r'
 #write access             'w'
 #write access with append 'a'
 
-#open(String filename, String access type)
+#Writing and Appending to a File
 '''
+#open(String filename, String access type)
 outputfile = open('C:/Users/mikis/Desktop/random1.txt', 'a')
 for i in range(10):
     outputfile.write("Hello my name is mikel\n")
 outputfile.close()
 '''
+
+#Reading Files
+'''
+#Reading the whole file
+inputfile = open('C:/Users/mikis/Desktop/random1.txt', 'r')
+
+file_contents = inputfile.read()
+print(file_contents)
+inputfile.close()
+'''
+#Reading lines with iterations
 '''
 inputfile = open('C:/Users/mikis/Desktop/random1.txt', 'r')
-#file_contents = inputfile.read()
-#print(file_contents)
-
 file_contents = inputfile.readline()
 
 while file_contents != '':
@@ -23,6 +33,7 @@ while file_contents != '':
 
 inputfile.close()
 '''
+#Reading lines with simplified iterations
 '''
 inputfile = open('C:/Users/mikis/Desktop/random1.txt', 'r')
 for line in inputfile:
