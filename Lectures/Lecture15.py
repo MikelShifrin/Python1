@@ -24,6 +24,7 @@ cards.add('jack')
 cards.add('queen')
 cards.update(['king', 'ace'])
 print(cards)
+
 cards.remove('jack')
 #discard doesn't give exception if element doesn't exist 
 cards.discard('3')
@@ -89,32 +90,5 @@ result2 = set1 >= set2          #same as previous line
 print(result1)
 print(result2)
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

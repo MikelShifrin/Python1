@@ -59,10 +59,10 @@ hello_my_name_is_mikel
 #print("today")
 
 #keyboard input
-'''
-name = input("Please enter your name:\n")
-age = int(input("Please enter your age:\n"))
-'''
+
+#name = input("Please enter your name:\n")
+#age = int(input("Please enter your age:\n"))
+
 
 #performing calculations
 # +    addition
@@ -83,16 +83,12 @@ age = int(input("Please enter your age:\n"))
 #print("Your average is", average)
 
 #assignment 1
-#write a program that asks and shows
-#the following from the user:
+#write a program that asks the user
+#and shows them the following information:
 #   1. your name
 #   2. your age
 #   3. your favorite color
 #   4. your favorite animal
-
-
-
-
 #Hello my name is Mikel.
 #I am 22 years old.
 #My favorite color is black.
