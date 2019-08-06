@@ -1,5 +1,6 @@
-#Assignment 6
-#Sum of numbers
-#Ask user to enter positive integers and print out the sum
-#To stop counting ask user to input -1
-
+#Assignment 5
+#Ask user to input a positive integer
+#calculate and print the running total
+#ex: input = 5
+#total = 1+2+3+4+5
+#output = total 
