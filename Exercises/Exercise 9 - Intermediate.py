@@ -1,6 +1,5 @@
-#Assignment 7
-#Calculating the factorial of a number
-#Ask user to input a positive integer
-#calculate and print out the factorial of that number
-#Reminder: 7! = 7x6x5x4x3x2x1
+#Assignment 6
+#Sum of numbers
+#Ask user to enter positive integers and print out the sum
+#To stop counting ask user to input -1
 

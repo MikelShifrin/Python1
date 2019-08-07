@@ -52,12 +52,12 @@ hello_my_name_is_mikel
 # \n     new line
 # \'     prints '
 # \"     prints "
-
-#print("I like", "Python")
-#print("I like", "Python", sep=" ", end="\n")
-#print("I like", "Python", sep="+", end="&&&&")
-#print("today")
-
+'''
+print("I like", "Python")
+print("I like", "Python", sep=" ", end="\n")
+print("I like", "Python", sep="+", end="&&&&")
+print("today")
+'''
 #keyboard input
 
 #name = input("Please enter your name:\n")
@@ -74,14 +74,15 @@ hello_my_name_is_mikel
 # **   Exponent
 
 #Average grade program
-#grade1 = float(input("enter grade 1:"))
-#grade2 = float(input("enter grade 2:"))
-#grade3 = float(input("enter grade 3:"))
+'''
+grade1 = float(input("enter grade 1:"))
+grade2 = float(input("enter grade 2:"))
+grade3 = float(input("enter grade 3:"))
 
-#average = ( grade1 + grade2 + grade3 ) / 3
+average = ( grade1 + grade2 + grade3 ) / 3
 
-#print("Your average is", average)
-
+print("Your average is", average)
+'''
 #assignment 1
 #write a program that asks the user
 #and shows them the following information:
