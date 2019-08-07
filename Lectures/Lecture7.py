@@ -1,7 +1,7 @@
 #Functions Continuation
 
 #Return Functions
-
+'''
 def main():
     a = sum(20, 20)
     print(a)
@@ -13,7 +13,7 @@ def sum(num1, num2):
 
 main()
 
-
+'''
 #Assignment 10
 #Calorie calculator
 #calories from carbs = carb grams x 4
