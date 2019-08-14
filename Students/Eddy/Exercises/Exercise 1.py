@@ -23,3 +23,6 @@ print("Hello my name is", name,".")
 print("I am", age, "years old.")
 print("My favourite colour is", color, ".")
 print("My favourite animal is the", animal, ".",)
+
+input('\nPress enter to close:')
+
