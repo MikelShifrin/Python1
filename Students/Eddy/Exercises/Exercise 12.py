@@ -1,18 +1,7 @@
-#Assignment 9
-#write a km to miles converter
-#Miles = KM x 0.6214
-#write it using void functions
-#HINT:
-#you will have 2 functions:
-#main():
-#km_to_miles(km):
-
-def main():
-    km = float(input("Enter a number (km) and it'll be converted in to miles\n"))
-    km_to_miles(km)
-
-def km_to_miles(km):
-    miles = km * 0.6214
-    print(miles)
-    
-main()
+#Assignment 2
+#
+#Using Turtle draw the pattern bellow:
+#Pattern 2.jpeg
+'''
+https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%202.jpg
+'''

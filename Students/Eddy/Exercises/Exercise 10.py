@@ -6,6 +6,7 @@
 
 import turtle
 
+
 turtle.setup(10000, 10000)
 turtle.hideturtle()
 turtle.pencolor('blue')
@@ -26,20 +27,18 @@ turtle.setheading(180)
 turtle.pendown()
 turtle.pencolor('black')
 turtle.circle(100)
-#turtle.penup()
-
-turtle.right(-90)
-turtle.forward(-15)  
+turtle.penup()
+turtle.forward(-200)
+turtle.right(90)
+turtle.forward(-220)
 turtle.pendown()
 turtle.pencolor('green')
 turtle.circle(100)
 turtle.penup()
+turtle.forward(20)
+turtle.right(90)
+turtle.forward(2)
+turtle.pendown()
+turtle.pencolor('red')
+turtle.circle(100)
 
-
-
-'''
-turtle.circle(50)
-turtle.circle(50)
-turtle.circle(50)
-turtle.circle(50)
-'''
