@@ -14,3 +14,9 @@ https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%202.jpg
 https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%203.jpg
 https://github.com/MikelShifrin/Python1/blob/master/Images/Pattern%204.jpg
 '''
+import turtle
+
+for draw in range(1,1000,10):
+    
+    turtle.forward(draw)
+    turtle.right(90)
